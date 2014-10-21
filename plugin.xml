@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="fr.ffontenoy.eclipse4.empty"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/fr.ffontenoy.eclipse4.empty/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="fr.ffontenoy.eclipse4.empty">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
