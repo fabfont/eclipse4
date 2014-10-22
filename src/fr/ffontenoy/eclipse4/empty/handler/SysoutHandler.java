@@ -12,7 +12,7 @@ public class SysoutHandler {
 	@Execute
 	public void execute(@Preference(nodePath = "fr.ffontenoy.eclipse4.empty") IEclipsePreferences prefs) {
 		System.out.println("HELLO WORLD!!!");
-		System.out.println(prefs.get("text", "Default Text"));
+		System.out.println(prefs.get("text", "My Default Text"));
 	}
 		
 }
