@@ -11,10 +11,19 @@ import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Label;
 
+/**
+ * This is my part 
+ */
 public class MyPart {
 	
+	/**
+	 * Label
+	 */
 	private Label mLabel;
 	
+	/**
+	 * Whether the part has been initialized
+	 */
 	private boolean mIsInitialized = false;
 	
 	@Inject
