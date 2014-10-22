@@ -1,5 +1,5 @@
  
-package fr.ffontenoy.eclipse4.empty.handler;
+package fr.ffontenoy.eclipse4.example.handler;
 
 import javax.inject.Named;
 
@@ -11,7 +11,7 @@ import org.osgi.service.prefs.BackingStoreException;
 
 public class ChangeTextHandler {
 	@Execute
-	public void execute(@Preference(nodePath = "fr.ffontenoy.eclipse4.empty") IEclipsePreferences prefs, @Optional @Named("fr.ffontenoy.eclipse4.empty.command.changeTextCommand.textParam") String text) {
+	public void execute(@Preference(nodePath = "fr.ffontenoy.eclipse4.example") IEclipsePreferences prefs, @Optional @Named("fr.ffontenoy.eclipse4.example.command.changeTextCommand.textParam") String text) {
 		// more stuff...
 		if (text == null)
 			return;

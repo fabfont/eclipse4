@@ -5,15 +5,15 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            name="fr.ffontenoy.eclipse4.empty"
+            name="fr.ffontenoy.eclipse4.example"
             application="org.eclipse.e4.ui.workbench.swt.E4Application">
          <property
                name="applicationCSS"
-               value="platform:/plugin/fr.ffontenoy.eclipse4.empty/css/default.css">
+               value="platform:/plugin/fr.ffontenoy.eclipse4.example/css/default.css">
          </property>
          <property
                name="appName"
-               value="fr.ffontenoy.eclipse4.empty">
+               value="fr.ffontenoy.eclipse4.example">
          </property>
       </product>
    </extension>

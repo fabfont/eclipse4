@@ -1,5 +1,5 @@
  
-package fr.ffontenoy.eclipse4.empty.part;
+package fr.ffontenoy.eclipse4.example.part;
 
 import javax.inject.Inject;
 import javax.annotation.PostConstruct;
@@ -43,7 +43,7 @@ public class MyPart {
 	}
 	
 	@Inject
-	public void listenPrefModifcation(@Optional @Preference(nodePath = "fr.ffontenoy.eclipse4.empty", value="text") String text) {
+	public void listenPrefModifcation(@Optional @Preference(nodePath = "fr.ffontenoy.eclipse4.example", value="text") String text) {
 		if (mIsInitialized) {
 			if (text != null && !text.isEmpty())
 				mLabel.setText(text);

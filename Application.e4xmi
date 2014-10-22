@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_MNtywFljEeSktswwezKPpw" elementId="org.eclipse.e4.ide.application" bindingContexts="_MNtyyVljEeSktswwezKPpw">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_MNtywVljEeSktswwezKPpw" label="fr.ffontenoy.eclipse4.empty" width="500" height="400">
-    <children xsi:type="advanced:PerspectiveStack" xmi:id="_abbOoFljEeSktswwezKPpw" elementId="fr.ffontenoy.eclipse4.empty.perspectivestack.0">
-      <children xsi:type="advanced:Perspective" xmi:id="_c1TQEFljEeSktswwezKPpw" elementId="fr.ffontenoy.eclipse4.empty.perspective.perspective0">
-        <children xsi:type="basic:Part" xmi:id="_w4FzgFlkEeSktswwezKPpw" elementId="fr.ffontenoy.eclipse4.empty.part.myPart" contributionURI="bundleclass://fr.ffontenoy.eclipse4.empty/fr.ffontenoy.eclipse4.empty.part.MyPart" label="My Part"/>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_MNtywVljEeSktswwezKPpw" label="fr.ffontenoy.eclipse4.example" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_abbOoFljEeSktswwezKPpw" elementId="fr.ffontenoy.eclipse4.example.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_c1TQEFljEeSktswwezKPpw" elementId="fr.ffontenoy.eclipse4.example.perspective.perspective0">
+        <children xsi:type="basic:Part" xmi:id="_w4FzgFlkEeSktswwezKPpw" elementId="fr.ffontenoy.eclipse4.example.part.myPart" contributionURI="bundleclass://fr.ffontenoy.eclipse4.example/fr.ffontenoy.eclipse4.example.part.MyPart" label="My Part"/>
       </children>
     </children>
-    <mainMenu xmi:id="_F2SBQFoAEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.empty.main.menu">
-      <children xsi:type="menu:Menu" xmi:id="_MvacQFoAEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.empty.menu.file" label="File" mnemonics="File">
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_jdbvgFoEEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.empty.handledmenuitem.changeText" label="Change Window Text" command="_8VoA0FnzEeStWrr_te8Prw">
-          <parameters xmi:id="_jdbvgVoEEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.empty.menu.changeTextCommand.textParam" name="fr.ffontenoy.eclipse4.empty.command.changeTextCommand.textParam" value="This is my new text !!!"/>
+    <mainMenu xmi:id="_F2SBQFoAEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.example.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_MvacQFoAEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.example.menu.file" label="File" mnemonics="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_jdbvgFoEEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.example.handledmenuitem.changeText" label="Change Window Text" command="_8VoA0FnzEeStWrr_te8Prw">
+          <parameters xmi:id="_jdbvgVoEEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.example.menu.changeTextCommand.textParam" name="fr.ffontenoy.eclipse4.example.command.changeTextCommand.textParam" value="This is my new text !!!"/>
         </children>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_Th3ngFoAEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.empty.handledmenuitem.changeText" label="Change Window Text" command="_8VoA0FnzEeStWrr_te8Prw">
-          <parameters xmi:id="_USNp4FoBEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.empty.menu.changeTextCommand.textParam" name="fr.ffontenoy.eclipse4.empty.command.changeTextCommand.textParam" value="This is my other text !!!"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Th3ngFoAEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.example.handledmenuitem.changeText" label="Change Window Text" command="_8VoA0FnzEeStWrr_te8Prw">
+          <parameters xmi:id="_USNp4FoBEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.example.menu.changeTextCommand.textParam" name="fr.ffontenoy.eclipse4.example.command.changeTextCommand.textParam" value="This is my other text !!!"/>
         </children>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="__4KyIFoBEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.empty.handledmenuitem.sysout" label="Sysout" command="_yx_mEFoBEeS1uZC1cwXH6w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="__4KyIFoBEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.example.handledmenuitem.sysout" label="Sysout" command="_yx_mEFoBEeS1uZC1cwXH6w"/>
       </children>
     </mainMenu>
   </children>
-  <handlers xmi:id="_viQmkFn0EeSz-7-Yo9Y43A" elementId="fr.ffontenoy.eclipse4.empty.handler.changeTextHandler" contributionURI="bundleclass://fr.ffontenoy.eclipse4.empty/fr.ffontenoy.eclipse4.empty.handler.ChangeTextHandler" command="_8VoA0FnzEeStWrr_te8Prw"/>
-  <handlers xmi:id="_2lEPEFoBEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.empty.handler.sysout" contributionURI="bundleclass://fr.ffontenoy.eclipse4.empty/fr.ffontenoy.eclipse4.empty.handler.SysoutHandler" command="_yx_mEFoBEeS1uZC1cwXH6w"/>
+  <handlers xmi:id="_viQmkFn0EeSz-7-Yo9Y43A" elementId="fr.ffontenoy.eclipse4.example.handler.changeTextHandler" contributionURI="bundleclass://fr.ffontenoy.eclipse4.example/fr.ffontenoy.eclipse4.example.handler.ChangeTextHandler" command="_8VoA0FnzEeStWrr_te8Prw"/>
+  <handlers xmi:id="_2lEPEFoBEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.example.handler.sysout" contributionURI="bundleclass://fr.ffontenoy.eclipse4.example/fr.ffontenoy.eclipse4.example.handler.SysoutHandler" command="_yx_mEFoBEeS1uZC1cwXH6w"/>
   <rootContext xmi:id="_MNtyyVljEeSktswwezKPpw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_MNtyylljEeSktswwezKPpw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_MNtyy1ljEeSktswwezKPpw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
-  <commands xmi:id="_8VoA0FnzEeStWrr_te8Prw" elementId="fr.ffontenoy.eclipse4.empty.command.changeTextCommand" commandName="Change Text Preference">
-    <parameters xmi:id="_C58pcFn0EeStWrr_te8Prw" elementId="fr.ffontenoy.eclipse4.empty.command.changeTextCommand.textParam" name="Text" typeId="" optional="false"/>
+  <commands xmi:id="_8VoA0FnzEeStWrr_te8Prw" elementId="fr.ffontenoy.eclipse4.example.command.changeTextCommand" commandName="Change Text Preference">
+    <parameters xmi:id="_C58pcFn0EeStWrr_te8Prw" elementId="fr.ffontenoy.eclipse4.example.command.changeTextCommand.textParam" name="Text" typeId="" optional="false"/>
   </commands>
-  <commands xmi:id="_yx_mEFoBEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.empty.command.sysout" commandName="Sysout"/>
+  <commands xmi:id="_yx_mEFoBEeS1uZC1cwXH6w" elementId="fr.ffontenoy.eclipse4.example.command.sysout" commandName="Sysout"/>
   <addons xmi:id="_MNtywlljEeSktswwezKPpw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_MNtyw1ljEeSktswwezKPpw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_MNtyxFljEeSktswwezKPpw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
